@@ -23,14 +23,14 @@ We use the following datasets in our experiments:
   - Paper: [Image Classification with Small Datasets: Overview and Benchmark](https://ieeexplore.ieee.org/abstract/document/9770050)
   - Link: [Github](https://github.com/lorenzobrigato/gem) (note that we manually included this repo in our code.)
 - CIFAR-10/100
-  - Paper: Learning multiple layers of features from tiny images(https://www.cs.utoronto.ca/~kriz/learning-features-2009-TR.pdf)
+  - Paper: [Learning multiple layers of features from tiny images](https://www.cs.utoronto.ca/~kriz/learning-features-2009-TR.pdf)
   - Link: [cifar-10/100](https://www.cs.toronto.edu/~kriz/cifar.html)
-- [CIFAR-10N/100N]
+- CIFAR-10N/100N
   - Paper: [Learning with Noisy Labels Revisited: A Study Using Real-World Human Annotations](https://openreview.net/forum?id=TBWA6PLJZQm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions))
   - Link: [Github](https://github.com/UCSC-REAL/cifar-10-100nhttps://noisylabels.com)
-- [ANIMAL-10N]
+- ANIMAL-10N
   - Paper: [SELFIE: Refurbishing Unclean Samples for Robust Deep Learning](http://proceedings.mlr.press/v97/song19b.html)
-  - Link: [animal-10n](https://dm.kaist.ac.kr/datasets/animal-10n/)
+  - Link: [animal-10n official homepage](https://dm.kaist.ac.kr/datasets/animal-10n/)
 
 Download the datasets and put them inside the `data` folder.
 
