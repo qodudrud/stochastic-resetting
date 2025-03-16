@@ -6,7 +6,7 @@
 Authors: Youngkyoung Bae<sup>\*</sup>, Yeongwoo Song<sup>\*</sup>, and Hawoong Jeong<br>
 <sub>\* Equal contribution</sub>
 
-This repository is the official implementation of ``Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise`` ([arXiv:2406.00396v2](https://arxiv.org/abs/2406.00396v2)).
+This repository is the official implementation of ``Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise``.
 
 ## Getting started
 
@@ -69,4 +69,23 @@ python -u main.py \
   --noise-rate 0.6 \
   --adaptive 1 \
   --loss-type ce \
+```
+
+## Bibtex
+Cite the following BibTeX.
+```bibtex
+@article{bae2025stochastic,
+  doi = {10.1088/2632-2153/adbc46},
+  url = {https://dx.doi.org/10.1088/2632-2153/adbc46},
+  year = {2025},
+  month = {mar},
+  publisher = {IOP Publishing},
+  volume = {6},
+  number = {1},
+  pages = {015062},
+  author = {Bae, Youngkyoung and Song, Yeongwoo and Jeong, Hawoong},
+  title = {Stochastic resetting mitigates latent gradient bias of SGD from label noise},
+  journal = {Machine Learning: Science and Technology},
+}
+
 ```
