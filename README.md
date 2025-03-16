@@ -1,5 +1,6 @@
 # Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise
 
+[![PRL](http://img.shields.io/badge/MLST-MachLearn:SciTechnol.6.015062-CCDDF6)](https://iopscience.iop.org/article/10.1088/2632-2153/adbc46)
 [![arxiv](https://img.shields.io/badge/arXiv-2406.00396-B31B1B)](https://arxiv.org/abs/2406.00396v3)
 
 Authors: Youngkyoung Bae<sup>\*</sup>, Yeongwoo Song<sup>\*</sup>, and Hawoong Jeong<br>
