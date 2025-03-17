@@ -6,7 +6,7 @@
 Authors: Youngkyoung Bae<sup>\*</sup>, Yeongwoo Song<sup>\*</sup>, and Hawoong Jeong<br>
 <sub>\* Equal contribution</sub>
 
-This repository contains the official implementation of ``Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise'', published in [Machine Learning: Science and Technology](https://iopscience.iop.org/article/10.1088/2632-2153/adbc46).
+This repository contains the official implementation of ``Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise``, published in [Machine Learning: Science and Technology](https://iopscience.iop.org/article/10.1088/2632-2153/adbc46).
 
 ## Summary
 Giving up and starting over may seem wasteful in many situations such as searching for a target or training deep neural networks (DNNs). Our study, though, demonstrates that resetting from a checkpoint can significantly improve generalization performance when training DNNs with noisy labels. In the presence of noisy labels, DNNs initially learn the general patterns of the data but then gradually memorize the corrupted data, leading to overfitting. By deconstructing the dynamics of stochastic gradient descent (SGD), we identify the behavior of a latent gradient bias induced by noisy labels, which harms generalization. To mitigate this negative effect, we apply the stochastic resetting method to SGD, inspired by recent developments in the field of statistical physics achieving efficient target searches. We first theoretically identify the conditions where resetting becomes beneficial, and then we empirically validate our theory, confirming the significant improvements achieved by resetting. We further demonstrate that our method is both easy to implement and compatible with other methods for handling noisy labels. Additionally, this work offers insights into the learning dynamics of DNNs from an interpretability perspective, expanding the potential to analyze training methods through the lens of statistical physics.
@@ -45,7 +45,7 @@ We use the following datasets in our experiments:
 
 Download the datasets and put them inside the `data` folder.
 
-For convinience, we share the collections of the above datasets through the following link; [link to the collections](https://www.dropbox.com/scl/fi/wyuwhr5kld7y0erv445tx/resetting_data_collection.zip?rlkey=eldhhz3j8ehi3pjk62c59h6o0&st=m5ln0a9v&dl=0)
+For convenience, we share the collections of the above datasets through the following link; [link to the collections](https://www.dropbox.com/scl/fi/wyuwhr5kld7y0erv445tx/resetting_data_collection.zip?rlkey=eldhhz3j8ehi3pjk62c59h6o0&st=m5ln0a9v&dl=0)
 
 ## Execution
 
