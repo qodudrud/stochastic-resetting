@@ -4,7 +4,8 @@
 [![arxiv](https://img.shields.io/badge/arXiv-2406.00396-B31B1B)](https://arxiv.org/abs/2406.00396v3)
 
 Authors: Youngkyoung Bae<sup>\*</sup>, Yeongwoo Song<sup>\*</sup>, and Hawoong Jeong<br>
-<sub>\* Equal contribution</sub>
+<sub> \* Equal contribution</sub>
+
 
 This repository contains the official implementation of ``Stochastic Resetting Mitigates Latent Gradient Bias of SGD from Label Noise``, published in [Machine Learning: Science and Technology](https://iopscience.iop.org/article/10.1088/2632-2153/adbc46).
 
