@@ -19,7 +19,10 @@ Giving up and starting over may seem wasteful in many situations such as searchi
 We implemented our algorithm (basically) with ``Python 3.10.13`` and ``PyTorch==1.10.2``.
 
 ```
-git clone https://github.com/qodudrud/LBN.git
+git clone https://github.com/qodudrud/stochastic-resetting.git
+cd stochastic-resetting
+conda env create --file env.yml
+conda activate resetting
 ```
 
 ## Datasets
