@@ -16,7 +16,9 @@ Giving up and starting over may seem wasteful in many situations such as searchi
 
 ## Getting started
 
-We implemented our algorithm (basically) with ``Python 3.10.13`` and ``PyTorch==1.10.2``.
+We implemented our algorithm (basically) with ``Python 3.10.13`` and ``PyTorch==1.12.1``.
+
+Download our repository and install its dependencies.
 
 ```
 git clone https://github.com/qodudrud/stochastic-resetting.git
